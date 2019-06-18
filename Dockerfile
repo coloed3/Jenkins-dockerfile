@@ -7,4 +7,4 @@ RUN mkdir -p/tmp/download &&\
     groupadd -g  999 docker && \
     usermod -aG docker jenkins
 
-USER   jenkins
+user  jenkins
